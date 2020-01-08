@@ -49,6 +49,9 @@ Plugin 'ntpeters/vim-better-whitespace'
 " youcompleteme
 Plugin 'Valloric/YouCompleteMe'
 
+" colorschemes
+Plugin 'flazz/vim-colorschemes'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -68,3 +71,7 @@ python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()
 python3 del powerline_setup
 set laststatus=2
+
+if &diff
+    colorscheme evening
+endif
