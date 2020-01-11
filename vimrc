@@ -4,6 +4,7 @@ filetype plugin indent on
 
 "set background=dark
 "colorscheme solarized
+colorscheme elflord
 
 set tabstop=8
 set textwidth=80
