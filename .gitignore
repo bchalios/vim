@@ -1,1 +1,11 @@
 **/.*.swp
+bundle/YCM-Generator
+bundle/YouCompleteMe
+bundle/command-t/
+bundle/nerdtree/
+bundle/sparkup/
+bundle/vim-better-whitespace/
+bundle/vim-capnp/
+bundle/vim-colorschemes/
+bundle/vim-fugitive/
+bundle/vim-nerdtree-tabs/
